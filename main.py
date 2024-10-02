@@ -9,7 +9,7 @@ except:
 from telebot import *
 from colorama import Fore
 sto = {"stop":False}
-token = "6637378592:AAEwYfSZgxYlUfILJBCnU0xa-fRkrQ8pt9c" 
+token = "7336963132:AAGMtGcbSBt0XGkMKi8aMhZOGFWZH5s0K8Q" 
 id = 6191863486 
 bot=telebot.TeleBot(token,parse_mode="HTML")
 @bot.message_handler(commands=["stop"])
